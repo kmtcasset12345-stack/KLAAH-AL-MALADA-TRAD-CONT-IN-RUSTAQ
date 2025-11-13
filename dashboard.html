@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - Klaah Web App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h2>Dashboard</h2>
+    <button onclick="logout()">Logout</button>
+  </header>
+
+  <main class="dashboard">
+    <div class="card" onclick="go('materials.html')">📦 Materials</div>
+    <div class="card" onclick="go('data_entry.html')">📋 Data Entry</div>
+    <div class="card" onclick="go('staff_list.html')">🧑‍🤝‍🧑 Staff List</div>
+    <div class="card" onclick="go('profile.html')">⚙️ Profile</div>
+  </main>
+  
+  <script src="script.js"></script>
+</body>
+</html>
