@@ -1,0 +1,14 @@
+klaah_web_app/
+│
+├── index.html
+├── login.html
+├── dashboard.html
+├── materials_request.html
+├── materials_received.html
+├── records.html
+├── staff_list.html
+├── leave_cancel.html
+├── profile.html
+├── style.css
+├── script.js
+└── README.md
